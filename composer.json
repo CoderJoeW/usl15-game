@@ -1,0 +1,24 @@
+{
+    "name": "ziquid/usl",
+    "description": "A project of some sort",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joseph Cheek",
+            "email": "zipport@ziquid.com"
+        },
+        {
+            "name": "Joseph Williamson",
+            "email": "j.williamson@gambler-labs.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Usl\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "predis/predis": "v1.1.x-dev"
+    }
+}
