@@ -16,6 +16,8 @@ class Welcome extends Auth{
 
     public $userId = null;
 
+    public $useHeader = true;
+
     public function __construct(){
         if(!empty($_SESSION)){
             $this->userId = $_SESSION['user_id'];

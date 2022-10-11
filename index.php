@@ -30,6 +30,7 @@ if ($url == '/' || empty($url[0])){
 
     $cssFiles = $controller->cssFiles;
     $jsFiles = $controller->jsFiles;
+    $useHeader = $controller->useHeader;
     
     $viewPath = "{$rootPath}Home/View/{$view}.php";
 
@@ -80,6 +81,7 @@ if ($url == '/' || empty($url[0])){
         
         $cssFiles = $controllerObj->cssFiles;
         $jsFiles = $controllerObj->jsFiles;
+        $useHeader = $controllerObj->useHeader;
         
         if($view != null){
             // Store view path
